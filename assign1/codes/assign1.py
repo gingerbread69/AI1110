@@ -4,7 +4,7 @@ import numpy as np
 num_rolls = 1000000
 
 # Probability for each number on die
-probability = np.full((6,), 1/6)
+probability = np.full((6), 1/6)
 
 # Simulating die roll
 roll = np.random.choice(np.arange(1, 7), size=num_rolls, p = probability)
