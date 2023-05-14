@@ -308,21 +308,21 @@ Assignment 1 in \LaTeX
 	\pr{A} &= \frac{n\brak{A}}{n\brak{S}} = \frac{3}{6} = 0.5 \\
 	\pr{B} &= \frac{n\brak{B}}{n\brak{S}} = \frac{3}{6} = 0.5 \\
 	\pr{C} &= \frac{n\brak{C}}{n\brak{S}} = \frac{3}{6} = 0.5
-\end{align} \\
-\textbf{PMF:}
-${\it \pr{x}} = \begin{cases}
+\end{align}
+\begin{align}
+{\textbf{PMF:} \it \pr{x}} = \begin{cases}
 	\frac{1}{6}, & \text{ if } x \in \cbrak{1, 2, 3, 4, 5, 6}\\
 	0, & \text{ otherwise. }    
 \end{cases}
-$
 \qquad
-\textbf{CDF:}
-${\it F_{X}\brak{n} = \pr{X \le x}} = \begin{cases}
+\end{align}
+\begin{align}
+\textbf{CDF:} {\it F_{X}\brak{n} = \pr{X \le x}} = \begin{cases}
 	0, \text{ if } n < 1\\
 	\frac{n}{6},\\
 	1,  \text{ otherwise. }
 \end{cases}
-$
+\end{align}
 \begin{align}
 	\pr{A} = \pr{x \in \cbrak{2, 3, 5}} = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{1}{2}\\
 	\pr{B} = \pr{X > 2 \text{ and } X < 6} = \pr{X \le 5}\cdot\pr{X \ge 3 | X \le 5} = \frac{5}{6}\cdot\frac{3}{5} = \frac{3}{6} = \frac{1}{2}\\
